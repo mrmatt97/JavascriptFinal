@@ -1,6 +1,5 @@
-
-@media only screen and (max-width : $break-mid){
-  body{
-    background-color: red;
-  }
+body{
+	@media only screen and (max-width : $break-mid){
+	background-color: red;
+	}
 }
