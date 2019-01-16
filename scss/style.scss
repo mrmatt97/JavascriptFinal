@@ -1,0 +1,19 @@
+@import "reset";
+@import "global";
+
+/* Template vendor */
+@import "vendor/bootstrap";
+
+@import "template/all_style";
+/* Template segments */
+@import "template/header";
+@import "template/main";
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+html,
+body,
+ul,
+ol {
+    margin: 0;
+    padding: 0
+}
